@@ -1,309 +1,410 @@
 <!DOCTYPE HTML>
 
 <html>
+
 <head>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mainpage.css">
     <h1>My Meal Planner</h1>
 </head>
 
 <body>
     <div>
-    <table>
-        <tr><th>Day</th><th>Protein</th><th>Carbohydrates</th><th>Vitamins</th><th>Dairy</th></tr>
+        <table>
+            <table class="center">
+                <tr>
+                    <th>Day</th>
+                    <th>Protein</th>
+                    <th>Carbohydrates</th>
+                    <th>Vitamins</th>
+                    <th>Dairy</th>
+                </tr>
 
-        <tr><td>Monday</td><td><label for="Monday Protein"></label>
-        <select name = "Monday Protein" id = "Monday Protein">
-            <option value = "chicken nuggets">chicken nuggets</option>
-            <option value = "fish fingers">fish fingers</option>
-            <option value = "omlette">omlette</option>
-            <option value = "sausage">sausage</option>  
-        </select></td>
+                <tr>
+                    <td>Monday</td>
+                    <td><label for="Monday Protein"></label>
+                        <select name="Monday Protein" id="Monday Protein">
+                            <option value="chicken">chicken</option>
+                            <option value="chicken nuggets">chicken nuggets</option>
+                            <option value="egg muffin">egg muffins</option>
+                            <option value="fish fingers">fish fingers</option>
+                            <option value="macaroni cheese">macaroni cheese</option>
+                            <option value="omlette">omlette</option>
+                            <option value="pasta bake">pasta bake</option>
+                            <option value="sausage pasta">sausage pasta</option>
+                            <option value="scrambled eggs">scrambled eggs</option>
+                            <option value="grown-ups' choice">grown-ups' choice</option>
+                        </select>
+                    </td>
 
-        <td><label for="Monday Carbohydrates"></label>
-            <select name = "Monday Carbohydrates" id = "Monday Carbohydrates">
-                <option value = "cous cous">cous cous</option>
-                <option value = "noodles">noodles</option>
-                <option value = "pasta">pasta</option>
-                <option value = "rice">rice</option>
-            </select></td>
+                    <td><label for="Monday Carbohydrates"></label>
+                        <select name="Monday Carbohydrates" id="Monday Carbohydrates">
+                            <option value="cous cous">cous cous</option>
+                            <option value="noodles">noodles</option>
+                            <option value="pasta">pasta</option>
+                            <option value="rice">rice</option>
+                            <option value="quinoa">quinoa</option>
+                            <option value="grown-ups' choice">grown-ups' choice</option>
+                        </select>
+                    </td>
 
-            <td><label for="Monday Vitamins"></label>
-                <select name = "Monday Vitamins" id = "Monday Vitamins">
-                    <option value = "broccoli">broccoli</option>
-                    <option value = "cabbage">cabbage</option>
-                    <option value = "carrot">carrot</option>
-                    <option value = "green beans">green beans</option>
-                    <option value = "pepper">pepper</option>
-                    <option value = "rocket">rocket</option>
-                    <option value = "spinach">spinach</option>
-                    <option value = "spring onion">spring onion</option>
-                </select></td>
+                    <td><label for="Monday Vitamins"></label>
+                        <select name="Monday Vitamins" id="Monday Vitamins">
+                            <option value="broccoli">broccoli</option>
+                            <option value="cabbage">cabbage</option>
+                            <option value="carrot">carrot</option>
+                            <option value="celery">celery</option>
+                            <option value="green beans">green beans</option>
+                            <option value="peas">peas</option>
+                            <option value="pepper">pepper</option>
+                            <option value="rocket">rocket</option>
+                            <option value="spinach">spinach</option>
+                            <option value="spring onion">spring onion</option>
+                            <option value="sweet corn">sweet corn</option>
+                            <option value="grown-ups' choice">grown-ups' choice</option>
+                        </select>
+                    </td>
 
                     <td><label for="Monday Dairy"></label>
-                        <select name = "Monday Dairy" id = "Monday Dairy">
-                            <option value = "cheese">cheese</option>
-                            <option value = "milk">milk</option>
-                            <option value = "yoghurt">yoghurt</option>         
-                </select></td>
+                        <select name="Monday Dairy" id="Monday Dairy">
+                            <option value="cheese">cheese</option>
+                            <option value="milk">milk</option>
+                            <option value="yoghurt">yoghurt</option>
+                            <option value="grown-ups' choice">grown-ups' choice</option>
+                        </select>
+                    </td>
 
-                <tr><td>Tuesday</td><td><label for="Tuesday Protein"></label>
-                    <select name = "Tuesday Protein" id = "Tuesday Protein">
-                        <option value = "chicken nuggets">chicken nuggets</option>
-                        <option value = "fish fingers">fish fingers</option>
-                        <option value = "omlette">omlette</option>
-                        <option value = "sausage">sausage</option>  
-                    </select></td>
-            
+                <tr>
+                    <td>Tuesday</td>
+                    <td><label for="Tuesday Protein"></label>
+                        <select name="Tuesday Protein" id="Tuesday Protein">
+                            <option value="chicken">chicken</option>
+                            <option value="chicken nuggets">chicken nuggets</option>
+                            <option value="egg muffin">egg muffins</option>
+                            <option value="fish fingers">fish fingers</option>
+                            <option value="macaroni cheese">macaroni cheese</option>
+                            <option value="omlette">omlette</option>
+                            <option value="pasta bake">pasta bake</option>
+                            <option value="sausage pasta">sausage pasta</option>
+                            <option value="scrambled eggs">scrambled eggs</option>
+                            <option value="grown-ups' choice">grown-ups' choice</option>
+                        </select>
+                    </td>
+
                     <td><label for="Tuesday Carbohydrates"></label>
-                        <select name = "Tuesday Carbohydrates" id = "Tuesday Carbohydrates">
-                            <option value = "cous cous">cous cous</option>
-                            <option value = "noodles">noodles</option>
-                            <option value = "pasta">pasta</option>
-                            <option value = "rice">rice</option>
-                        </select></td>
-            
-                        <td><label for="Tuesday Vitamins"></label>
-                            <select name = "Tuesday Vitamins" id = "Tuesday Vitamins">
-                                <option value = "broccoli">broccoli</option>
-                                <option value = "cabbage">cabbage</option>
-                                <option value = "carrot">carrot</option>
-                                <option value = "green beans">green beans</option>
-                                <option value = "pepper">pepper</option>
-                                <option value = "rocket">rocket</option>
-                                <option value = "spinach">spinach</option>
-                                <option value = "spring onion">spring onion</option>
-                            </select></td>
-            
-                                <td><label for="Tuesday Dairy"></label>
-                                    <select name = "Tuesday Dairy" id = "Tuesday Dairy">
-                                        <option value = "cheese">cheese</option>
-                                        <option value = "milk">milk</option>
-                                        <option value = "yoghurt">yoghurt</option>         
-                            </select></td>
+                        <select name="Tuesday Carbohydrates" id="Tuesday Carbohydrates">
+                            <option value="cous cous">cous cous</option>
+                            <option value="noodles">noodles</option>
+                            <option value="pasta">pasta</option>
+                            <option value="rice">rice</option>
+                            <option value="quinoa">quinoa</option>
+                            <option value="grown-ups' choice">grown-ups' choice</option>
+                        </select>
+                    </td>
+
+                    <td><label for="Tuesday Vitamins"></label>
+                        <select name="Tuesday Vitamins" id="Tuesday Vitamins">
+                            <option value="broccoli">broccoli</option>
+                            <option value="cabbage">cabbage</option>
+                            <option value="carrot">carrot</option>
+                            <option value="celery">celery</option>
+                            <option value="green beans">green beans</option>
+                            <option value="peas">peas</option>
+                            <option value="pepper">pepper</option>
+                            <option value="rocket">rocket</option>
+                            <option value="spinach">spinach</option>
+                            <option value="spring onion">spring onion</option>
+                            <option value="sweet corn">sweet corn</option>
+                            <option value="grown-ups' choice">grown-ups' choice</option>
+                        </select>
+                    </td>
+
+                    <td><label for="Tuesday Dairy"></label>
+                        <select name="Tuesday Dairy" id="Tuesday Dairy">
+                            <option value="cheese">cheese</option>
+                            <option value="milk">milk</option>
+                            <option value="yoghurt">yoghurt</option>
+                            <option value="grown-ups' choice">grown-ups' choice</option>
+                        </select>
+                    </td>
 
 
-                            <tr><td>Wednesday</td><td><label for="Wednesday Protein"></label>
-                                <select name = "Wednesday Protein" id = "Wednesday Protein">
-                                    <option value = "chicken nuggets">chicken nuggets</option>
-                                    <option value = "fish fingers">fish fingers</option>
-                                    <option value = "omlette">omlette</option>
-                                    <option value = "sausage">sausage</option>  
-                                </select></td>
-                        
-                                <td><label for="Wednesday Carbohydrates"></label>
-                                    <select name = "Wednesday Carbohydrates" id = "Wednesday Carbohydrates">
-                                        <option value = "cous cous">cous cous</option>
-                                        <option value = "noodles">noodles</option>
-                                        <option value = "pasta">pasta</option>
-                                        <option value = "rice">rice</option>
-                                    </select></td>
-                        
-                                    <td><label for="Wednesday Vitamins"></label>
-                                        <select name = "Wednesday Vitamins" id = "Wednesday Vitamins">
-                                            <option value = "broccoli">broccoli</option>
-                                            <option value = "cabbage">cabbage</option>
-                                            <option value = "carrot">carrot</option>
-                                            <option value = "green beans">green beans</option>
-                                            <option value = "pepper">pepper</option>
-                                            <option value = "rocket">rocket</option>
-                                            <option value = "spinach">spinach</option>
-                                            <option value = "spring onion">spring onion</option>
-                                        </select></td>
-                        
-                                            <td><label for="Wednesday Dairy"></label>
-                                                <select name = "Wednesday Dairy" id = "Wednesday Dairy">
-                                                    <option value = "cheese">cheese</option>
-                                                    <option value = "milk">milk</option>
-                                                    <option value = "yoghurt">yoghurt</option>         
-                                        </select></td>
+                <tr>
+                    <td>Wednesday</td>
+                    <td><label for="Wednesday Protein"></label>
+                        <select name="Wednesday Protein" id="Wednesday Protein">
+                            <option value="chicken">chicken</option>
+                            <option value="chicken nuggets">chicken nuggets</option>
+                            <option value="egg muffin">egg muffins</option>
+                            <option value="fish fingers">fish fingers</option>
+                            <option value="macaroni cheese">macaroni cheese</option>
+                            <option value="omlette">omlette</option>
+                            <option value="pasta bake">pasta bake</option>
+                            <option value="sausage pasta">sausage pasta</option>
+                            <option value="scrambled eggs">scrambled eggs</option>
+                            <option value="grown-ups' choice">grown-ups' choice</option>
+                        </select>
+                    </td>
 
-                                        <tr><td>Thursday</td><td><label for="Thursday Protein"></label>
-                                            <select name = "Thursday Protein" id = "Thursday Protein">
-                                                <option value = "chicken nuggets">chicken nuggets</option>
-                                                <option value = "fish fingers">fish fingers</option>
-                                                <option value = "omlette">omlette</option>
-                                                <option value = "sausage">sausage</option>  
-                                            </select></td>
-                                    
-                                            <td><label for="Thursday Carbohydrates"></label>
-                                                <select name = "Thursday Carbohydrates" id = "Thursday Carbohydrates">
-                                                    <option value = "cous cous">cous cous</option>
-                                                    <option value = "noodles">noodles</option>
-                                                    <option value = "pasta">pasta</option>
-                                                    <option value = "rice">rice</option>
-                                                </select></td>
-                                    
-                                                <td><label for="Thursday Vitamins"></label>
-                                                    <select name = "Thursday Vitamins" id = "Thursday Vitamins">
-                                                        <option value = "broccoli">broccoli</option>
-                                                        <option value = "cabbage">cabbage</option>
-                                                        <option value = "carrot">carrot</option>
-                                                        <option value = "green beans">green beans</option>
-                                                        <option value = "pepper">pepper</option>
-                                                        <option value = "rocket">rocket</option>
-                                                        <option value = "spinach">spinach</option>
-                                                        <option value = "spring onion">spring onion</option>
-                                                    </select></td>
-                                    
-                                                        <td><label for="Thursday Dairy"></label>
-                                                            <select name = "Thursday Dairy" id = "Thursday Dairy">
-                                                                <option value = "cheese">cheese</option>
-                                                                <option value = "milk">milk</option>
-                                                                <option value = "yoghurt">yoghurt</option>         
-                                                    </select></td>
+                    <td><label for="Wednesday Carbohydrates"></label>
+                        <select name="Wednesday Carbohydrates" id="Wednesday Carbohydrates">
+                            <option value="cous cous">cous cous</option>
+                            <option value="noodles">noodles</option>
+                            <option value="pasta">pasta</option>
+                            <option value="rice">rice</option>
+                            <option value="quinoa">quinoa</option>
+                            <option value="grown-ups' choice">grown-ups' choice</option>
+                        </select>
+                    </td>
 
-                                                    <tr><td>Friday</td><td><label for="Friday Protein"></label>
-                                                        <select name = "Friday Protein" id = "Friday Protein">
-                                                            <option value = "chicken nuggets">chicken nuggets</option>
-                                                            <option value = "fish fingers">fish fingers</option>
-                                                            <option value = "omlette">omlette</option>
-                                                            <option value = "sausage">sausage</option>  
-                                                        </select></td>
-                                                
-                                                        <td><label for="Friday Carbohydrates"></label>
-                                                            <select name = "Friday Carbohydrates" id = "Friday Carbohydrates">
-                                                                <option value = "cous cous">cous cous</option>
-                                                                <option value = "noodles">noodles</option>
-                                                                <option value = "pasta">pasta</option>
-                                                                <option value = "rice">rice</option>
-                                                            </select></td>
-                                                
-                                                            <td><label for="Friday Vitamins"></label>
-                                                                <select name = "Friday Vitamins" id = "Friday Vitamins">
-                                                                    <option value = "broccoli">broccoli</option>
-                                                                    <option value = "cabbage">cabbage</option>
-                                                                    <option value = "carrot">carrot</option>
-                                                                    <option value = "green beans">green beans</option>
-                                                                    <option value = "pepper">pepper</option>
-                                                                    <option value = "rocket">rocket</option>
-                                                                    <option value = "spinach">spinach</option>
-                                                                    <option value = "spring onion">spring onion</option>
-                                                                </select></td>
-                                                
-                                                                    <td><label for="Friday Dairy"></label>
-                                                                        <select name = "Friday Dairy" id = "Friday Dairy">
-                                                                            <option value = "cheese">cheese</option>
-                                                                            <option value = "milk">milk</option>
-                                                                            <option value = "yoghurt">yoghurt</option>         
-                                                                </select></td>
+                    <td><label for="Wednesday Vitamins"></label>
+                        <select name="Wednesday Vitamins" id="Wednesday Vitamins">
+                            <option value="broccoli">broccoli</option>
+                            <option value="cabbage">cabbage</option>
+                            <option value="carrot">carrot</option>
+                            <option value="celery">celery</option>
+                            <option value="green beans">green beans</option>
+                            <option value="peas">peas</option>
+                            <option value="pepper">pepper</option>
+                            <option value="rocket">rocket</option>
+                            <option value="spinach">spinach</option>
+                            <option value="spring onion">spring onion</option>
+                            <option value="sweet corn">sweet corn</option>
+                            <option value="grown-ups' choice">grown-ups' choice</option>
+                        </select>
+                    </td>
 
-                                                                <tr><td>Friday</td><td><label for="Friday Protein"></label>
-                                                        <select name = "Friday Protein" id = "Friday Protein">
-                                                            <option value = "chicken nuggets">chicken nuggets</option>
-                                                            <option value = "fish fingers">fish fingers</option>
-                                                            <option value = "omlette">omlette</option>
-                                                            <option value = "sausage">sausage</option>  
-                                                        </select></td>
-                                                
-                                                        <td><label for="Friday Carbohydrates"></label>
-                                                            <select name = "Friday Carbohydrates" id = "Friday Carbohydrates">
-                                                                <option value = "cous cous">cous cous</option>
-                                                                <option value = "noodles">noodles</option>
-                                                                <option value = "pasta">pasta</option>
-                                                                <option value = "rice">rice</option>
-                                                            </select></td>
-                                                
-                                                            <td><label for="Friday Vitamins"></label>
-                                                                <select name = "Friday Vitamins" id = "Friday Vitamins">
-                                                                    <option value = "broccoli">broccoli</option>
-                                                                    <option value = "cabbage">cabbage</option>
-                                                                    <option value = "carrot">carrot</option>
-                                                                    <option value = "green beans">green beans</option>
-                                                                    <option value = "pepper">pepper</option>
-                                                                    <option value = "rocket">rocket</option>
-                                                                    <option value = "spinach">spinach</option>
-                                                                    <option value = "spring onion">spring onion</option>
-                                                                </select></td>
-                                                
-                                                                    <td><label for="Friday Dairy"></label>
-                                                                        <select name = "Friday Dairy" id = "Friday Dairy">
-                                                                            <option value = "cheese">cheese</option>
-                                                                            <option value = "milk">milk</option>
-                                                                            <option value = "yoghurt">yoghurt</option>         
-                                                                </select></td>
+                    <td><label for="Wednesday Dairy"></label>
+                        <select name="Wednesday Dairy" id="Wednesday Dairy">
+                            <option value="cheese">cheese</option>
+                            <option value="milk">milk</option>
+                            <option value="yoghurt">yoghurt</option>
+                            <option value="grown-ups' choice">grown-ups' choice</option>
+                        </select>
+                    </td>
 
-                                                                <tr><td>Saturday</td><td><label for="Saturday Protein"></label>
-                                                                    <select name = "Saturday Protein" id = "Saturday Protein">
-                                                                        <option value = "chicken nuggets">chicken nuggets</option>
-                                                                        <option value = "fish fingers">fish fingers</option>
-                                                                        <option value = "omlette">omlette</option>
-                                                                        <option value = "sausage">sausage</option>  
-                                                                    </select></td>
-                                                            
-                                                                    <td><label for="Saturday Carbohydrates"></label>
-                                                                        <select name = "Saturday Carbohydrates" id = "Saturday Carbohydrates">
-                                                                            <option value = "cous cous">cous cous</option>
-                                                                            <option value = "noodles">noodles</option>
-                                                                            <option value = "pasta">pasta</option>
-                                                                            <option value = "rice">rice</option>
-                                                                        </select></td>
-                                                            
-                                                                        <td><label for="Saturday Vitamins"></label>
-                                                                            <select name = "Saturday Vitamins" id = "Saturday Vitamins">
-                                                                                <option value = "broccoli">broccoli</option>
-                                                                                <option value = "cabbage">cabbage</option>
-                                                                                <option value = "carrot">carrot</option>
-                                                                                <option value = "green beans">green beans</option>
-                                                                                <option value = "pepper">pepper</option>
-                                                                                <option value = "rocket">rocket</option>
-                                                                                <option value = "spinach">spinach</option>
-                                                                                <option value = "spring onion">spring onion</option>
-                                                                            </select></td>
-                                                            
-                                                                                <td><label for="Saturday Dairy"></label>
-                                                                                    <select name = "Saturday Dairy" id = "Saturday Dairy">
-                                                                                        <option value = "cheese">cheese</option>
-                                                                                        <option value = "milk">milk</option>
-                                                                                        <option value = "yoghurt">yoghurt</option>         
-                                                                            </select></td>
+                <tr>
+                    <td>Thursday</td>
+                    <td><label for="Thursday Protein"></label>
+                        <select name="Thursday Protein" id="Thursday Protein">
+                            <option value="chicken">chicken</option>
+                            <option value="chicken nuggets">chicken nuggets</option>
+                            <option value="egg muffin">egg muffins</option>
+                            <option value="fish fingers">fish fingers</option>
+                            <option value="macaroni cheese">macaroni cheese</option>
+                            <option value="omlette">omlette</option>
+                            <option value="pasta bake">pasta bake</option>
+                            <option value="sausage pasta">sausage pasta</option>
+                            <option value="scrambled eggs">scrambled eggs</option>
+                            <option value="grown-ups' choice">grown-ups' choice</option>
+                        </select>
+                    </td>
 
-                                                                            <tr><td>Sunday</td><td><label for="Sunday Protein"></label>
-                                                                                <select name = "Sunday Protein" id = "Sunday Protein">
-                                                                                    <option value = "chicken nuggets">chicken nuggets</option>
-                                                                                    <option value = "fish fingers">fish fingers</option>
-                                                                                    <option value = "omlette">omlette</option>
-                                                                                    <option value = "sausage">sausage</option>  
-                                                                                </select></td>
-                                                                        
-                                                                                <td><label for="Sunday Carbohydrates"></label>
-                                                                                    <select name = "Sunday Carbohydrates" id = "SundayCarbohydrates">
-                                                                                        <option value = "cous cous">cous cous</option>
-                                                                                        <option value = "noodles">noodles</option>
-                                                                                        <option value = "pasta">pasta</option>
-                                                                                        <option value = "rice">rice</option>
-                                                                                    </select></td>
-                                                                        
-                                                                                    <td><label for="Sunday Vitamins"></label>
-                                                                                        <select name = "Sunday Vitamins" id = "Sunday Vitamins">
-                                                                                            <option value = "broccoli">broccoli</option>
-                                                                                            <option value = "cabbage">cabbage</option>
-                                                                                            <option value = "carrot">carrot</option>
-                                                                                            <option value = "green beans">green beans</option>
-                                                                                            <option value = "pepper">pepper</option>
-                                                                                            <option value = "rocket">rocket</option>
-                                                                                            <option value = "spinach">spinach</option>
-                                                                                            <option value = "spring onion">spring onion</option>
-                                                                                        </select></td>
-                                                                        
-                                                                                            <td><label for="Sunday Dairy"></label>
-                                                                                                <select name = "Sunday Dairy" id = "Sunday Dairy">
-                                                                                                    <option value = "cheese">cheese</option>
-                                                                                                    <option value = "milk">milk</option>
-                                                                                                    <option value = "yoghurt">yoghurt</option>         
-                                                                                        </select></td>
+                    <td><label for="Thursday Carbohydrates"></label>
+                        <select name="Thursday Carbohydrates" id="Thursday Carbohydrates">
+                            <option value="cous cous">cous cous</option>
+                            <option value="noodles">noodles</option>
+                            <option value="pasta">pasta</option>
+                            <option value="rice">rice</option>
+                            <option value="quinoa">quinoa</option>
+                            <option value="grown-ups' choice">grown-ups' choice</option>
+                        </select>
+                    </td>
+
+                    <td><label for="Thursday Vitamins"></label>
+                        <select name="Thursday Vitamins" id="Thursday Vitamins">
+                            <option value="broccoli">broccoli</option>
+                            <option value="cabbage">cabbage</option>
+                            <option value="carrot">carrot</option>
+                            <option value="celery">celery</option>
+                            <option value="green beans">green beans</option>
+                            <option value="peas">peas</option>
+                            <option value="pepper">pepper</option>
+                            <option value="rocket">rocket</option>
+                            <option value="spinach">spinach</option>
+                            <option value="spring onion">spring onion</option>
+                            <option value="sweet corn">sweet corn</option>
+                            <option value="grown-ups' choice">grown-ups' choice</option>
+                        </select>
+                    </td>
+
+                    <td><label for="Thursday Dairy"></label>
+                        <select name="Thursday Dairy" id="Thursday Dairy">
+                            <option value="cheese">cheese</option>
+                            <option value="milk">milk</option>
+                            <option value="yoghurt">yoghurt</option>
+                            <option value="grown-ups' choice">grown-ups' choice</option>
+                        </select>
+                    </td>
+
+                <tr>
+                    <td>Friday</td>
+                    <td><label for="Friday Protein"></label>
+                        <select name="Friday Protein" id="Friday Protein">
+                            <option value="chicken">chicken</option>
+                            <option value="chicken nuggets">chicken nuggets</option>
+                            <option value="egg muffin">egg muffins</option>
+                            <option value="fish fingers">fish fingers</option>
+                            <option value="macaroni cheese">macaroni cheese</option>
+                            <option value="omlette">omlette</option>
+                            <option value="pasta bake">pasta bake</option>
+                            <option value="sausage pasta">sausage pasta</option>
+                            <option value="scrambled eggs">scrambled eggs</option>
+                            <option value="grown-ups' choice">grown-ups' choice</option>
+                        </select>
+                    </td>
+
+                    <td><label for="Friday Carbohydrates"></label>
+                        <select name="Friday Carbohydrates" id="Friday Carbohydrates">
+                            <option value="cous cous">cous cous</option>
+                            <option value="noodles">noodles</option>
+                            <option value="pasta">pasta</option>
+                            <option value="rice">rice</option>
+                            <option value="quinoa">quinoa</option>
+                            <option value="grown-ups' choice">grown-ups' choice</option>
+                        </select>
+                    </td>
+
+                    <td><label for="Friday Vitamins"></label>
+                        <select name="Friday Vitamins" id="Friday Vitamins">
+                            <option value="broccoli">broccoli</option>
+                            <option value="cabbage">cabbage</option>
+                            <option value="carrot">carrot</option>
+                            <option value="celery">celery</option>
+                            <option value="green beans">green beans</option>
+                            <option value="peas">peas</option>
+                            <option value="pepper">pepper</option>
+                            <option value="rocket">rocket</option>
+                            <option value="spinach">spinach</option>
+                            <option value="spring onion">spring onion</option>
+                            <option value="sweet corn">sweet corn</option>
+                            <option value="grown-ups' choice">grown-ups' choice</option>
+                        </select>
+                    </td>
+
+                    <td><label for="Friday Dairy"></label>
+                        <select name="Friday Dairy" id="Friday Dairy">
+                            <option value="cheese">cheese</option>
+                            <option value="milk">milk</option>
+                            <option value="yoghurt">yoghurt</option>
+                            <option value="grown-ups' choice">grown-ups' choice</option>
+                        </select>
+                    </td>
 
 
+                <tr>
+                    <td>Saturday</td>
+                    <td><label for="Saturday Protein"></label>
+                        <select name="Saturday Protein" id="Saturday Protein">
+                            <option value="chicken">chicken</option>
+                            <option value="chicken nuggets">chicken nuggets</option>
+                            <option value="egg muffin">egg muffins</option>
+                            <option value="fish fingers">fish fingers</option>
+                            <option value="macaroni cheese">macaroni cheese</option>
+                            <option value="omlette">omlette</option>
+                            <option value="pasta bake">pasta bake</option>
+                            <option value="sausage pasta">sausage pasta</option>
+                            <option value="scrambled eggs">scrambled eggs</option>
+                            <option value="grown-ups' choice">grown-ups' choice</option>
+                        </select>
+                    </td>
 
+                    <td><label for="Saturday Carbohydrates"></label>
+                        <select name="Saturday Carbohydrates" id="Saturday Carbohydrates">
+                            <option value="cous cous">cous cous</option>
+                            <option value="noodles">noodles</option>
+                            <option value="pasta">pasta</option>
+                            <option value="rice">rice</option>
+                            <option value="quinoa">quinoa</option>
+                            <option value="grown-ups' choice">grown-ups' choice</option>
+                        </select>
+                    </td>
 
+                    <td><label for="Saturday Vitamins"></label>
+                        <select name="Saturday Vitamins" id="Saturday Vitamins">
+                            <option value="broccoli">broccoli</option>
+                            <option value="cabbage">cabbage</option>
+                            <option value="carrot">carrot</option>
+                            <option value="celery">celery</option>
+                            <option value="green beans">green beans</option>
+                            <option value="peas">peas</option>
+                            <option value="pepper">pepper</option>
+                            <option value="rocket">rocket</option>
+                            <option value="spinach">spinach</option>
+                            <option value="spring onion">spring onion</option>
+                            <option value="sweet corn">sweet corn</option>
+                            <option value="grown-ups' choice">grown-ups' choice</option>
+                        </select>
+                    </td>
 
+                    <td><label for="Saturday Dairy"></label>
+                        <select name="Saturday Dairy" id="Saturday Dairy">
+                            <option value="cheese">cheese</option>
+                            <option value="milk">milk</option>
+                            <option value="yoghurt">yoghurt</option>
+                            <option value="grown-ups' choice">grown-ups' choice</option>
+                        </select>
+                    </td>
 
+                <tr>
+                    <td>Sunday</td>
+                    <td><label for="Sunday Protein"></label>
+                        <select name="Sunday Protein" id="Sunday Protein">
+                            <option value="chicken">chicken</option>
+                            <option value="chicken nuggets">chicken nuggets</option>
+                            <option value="egg muffin">egg muffins</option>
+                            <option value="fish fingers">fish fingers</option>
+                            <option value="macaroni cheese">macaroni cheese</option>
+                            <option value="omlette">omlette</option>
+                            <option value="pasta bake">pasta bake</option>
+                            <option value="sausage pasta">sausage pasta</option>
+                            <option value="scrambled eggs">scrambled eggs</option>
+                            <option value="grown-ups' choice">grown-ups' choice</option>
+                        </select>
+                    </td>
 
+                    <td><label for="Sunday Carbohydrates"></label>
+                        <select name="Sunday Carbohydrates" id="SundayCarbohydrates">
+                            <option value="cous cous">cous cous</option>
+                            <option value="noodles">noodles</option>
+                            <option value="pasta">pasta</option>
+                            <option value="rice">rice</option>
+                            <option value="quinoa">quinoa</option>
+                            <option value="grown-ups' choice">grown-ups' choice</option>
+                        </select>
+                    </td>
 
+                    <td><label for="Sunday Vitamins"></label>
+                        <select name="Sunday Vitamins" id="Sunday Vitamins">
+                            <option value="broccoli">broccoli</option>
+                            <option value="cabbage">cabbage</option>
+                            <option value="carrot">carrot</option>
+                            <option value="celery">celery</option>
+                            <option value="green beans">green beans</option>
+                            <option value="peas">peas</option>
+                            <option value="pepper">pepper</option>
+                            <option value="rocket">rocket</option>
+                            <option value="spinach">spinach</option>
+                            <option value="spring onion">spring onion</option>
+                            <option value="sweet corn">sweet corn</option>
+                            <option value="grown-ups' choice">grown-ups' choice</option>
 
+                        </select>
+                    </td>
 
+                    <td><label for="Sunday Dairy"></label>
+                        <select name="Sunday Dairy" id="Sunday Dairy">
+                            <option value="cheese">cheese</option>
+                            <option value="milk">milk</option>
+                            <option value="yoghurt">yoghurt</option>
+                            <option value="grown-ups' choice">grown-ups' choice</option>
 
+                        </select>
+                    </td>
 
+            </table>
 
-    </table>
+            <img src="Football.png" alt="football" id="football">
 </body>
 
 </hmtl>
